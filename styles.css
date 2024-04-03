@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile {
+    text-align: center;
+}
+
+.borrow-form {
+    margin-left: 20px;
+}
+
+.borrow-form input, .borrow-form select, .borrow-form button {
+    margin-bottom: 10px;
+}

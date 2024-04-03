@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil dan Peminjaman Buku</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="foto.jpg" alt="foto" style="max-width: 200px; max-height: 200px;">
+            <h2>Nama: Marcello brilian ananda wibowo</h2>
+            <p>NIM: 6701220146</p>
+            <p>Kelas: A</p>
+        </div>
+        <div class="borrow-form">
+            <input type="number" id="jumlah" placeholder="Jumlah">
+            <select id="pilihan">
+                <option value="sherlock">Sherlock</option>
+                <option value="lupin">Lupin</option>
+                <option value="aladin">Aladin</option>
+            </select>
+            <button onclick="checkAvailability()">Pinjam Buku</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
